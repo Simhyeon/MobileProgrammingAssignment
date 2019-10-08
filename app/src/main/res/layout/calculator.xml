@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="false"
+    android:layout_alignParentBottom="false"
+    android:layout_centerVertical="false"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/formula_view"
+        android:layout_width="wrap_content"
+        android:layout_height="101dp"
+        android:layout_alignParentTop="true"
+        android:minHeight="70dip"
+        android:minEms="25"
+        android:text="0"
+        android:textSize="75sp"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow
+            android:id="@+id/zeroLow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/cal_parenthesis_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="100dip"
+                android:minHeight="80dip"
+                android:text="(" />
+
+            <Button
+                android:id="@+id/cal_parenthesis_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="100dip"
+                android:minHeight="80dip"
+                android:text=")" />
+
+            <Button
+                android:id="@+id/cal_clear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="100dip"
+                android:minHeight="80dip"
+                android:text="clear" />
+
+            <Button
+                android:id="@+id/cal_modulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="100dip"
+                android:minHeight="80dip"
+                android:text="%" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/firstLow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/cal_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="100dip"
+                android:minHeight="80dip"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/cal_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="100dip"
+                android:minHeight="80dip"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/cal_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="100dip"
+                android:minHeight="80dip"
+                android:text="9" />
+
+            <Button
+                android:id="@+id/cal_plus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="100dip"
+                android:minHeight="80dip"
+                android:text="+" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/secondLow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/cal_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="100dip"
+                android:minHeight="80dip"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/cal_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="100dip"
+                android:minHeight="80dip"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/cal_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="100dip"
+                android:minHeight="80dip"
+                android:text="6" />
+
+            <Button
+                android:id="@+id/cal_minus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="100dip"
+                android:minHeight="80dip"
+                android:text="-" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/thirdLow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/cal_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="100dip"
+                android:minHeight="80dip"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/cal_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="100dip"
+                android:minHeight="80dip"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/cal_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="100dip"
+                android:minHeight="80dip"
+                android:text="3" />
+
+            <Button
+                android:id="@+id/cal_multiply"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="100dip"
+                android:minHeight="80dip"
+                android:text="*" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/fourthLow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/cal_dot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="100dip"
+                android:minHeight="80dip"
+                android:text="." />
+
+            <Button
+                android:id="@+id/cal_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="100dip"
+                android:minHeight="80dip"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/cal_enter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="100dip"
+                android:minHeight="80dip"
+                android:text="=" />
+
+            <Button
+                android:id="@+id/cal_divide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="100dip"
+                android:minHeight="80dip"
+                android:text="/" />
+        </TableRow>
+    </TableLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

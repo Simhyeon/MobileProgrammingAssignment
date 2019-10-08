@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">20150803 법학과 육심현 모바일 프로그래밍 과제</string>
+    <string name="id_text">회원 아이디</string>
+    <string name="password_text">비밀번호</string>
+    <string name="sign_up">회원가입</string>
+    <string name="login">로그인</string>
+    <string name="defaultUserDataFile">User_information.txt</string>
+</resources>
