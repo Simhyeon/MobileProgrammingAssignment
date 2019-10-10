@@ -24,8 +24,8 @@ JDK: {
  
  - 스크립트( MainActivity.kt ) :
      onCreate :
-         "로그인 버튼 onClickListener" : "로컬 파일 정보와 대조하여 아이디와 패스워드가 일치시 calculator 액티비티를 호출함." 
-         "회원가입 버튼 OnClickLister" :  "회원정보를 입력하는 액티비티 호출함."
+         "로그인 버튼 onClickListener" : "로컬 파일 정보와 대조하여 아이디와 패스워드가 일치시 calculator 액티비티를 호출함.",
+         "회원가입 버튼 OnClickLister" :  "회원정보를 입력하는 액티비티 호출함.",
      onPause : 아이디와 비밀번호 TextView에 입력된 Text를 지움.
  
  2. 두번 째 화면 ( sign_up_screen.xml + SignUpActivity.kt )
@@ -35,9 +35,9 @@ JDK: {
   
   - 스크립트 ( SignUpActivity.kt ) :
      onCreate : 
-         "아이디 입력칸 TextChangedListener" : "텍스트가 바뀐 후에는 정규표현식을 통해서 조건을 검사하고 부족한 조건에 맞추어 TextView로 표현함." 
-         "비밀번호 입력칸 TextChangedListener" : "아이디 입력칸과 동일함"
-         "회원가입 버튼 OnCLickListener" : "정보 입력, 개인정보 이용 동의 여부에 따라서 Toast로 문자열 표시함. 조건이 모두 만족된 경우에는 정보를 로컬파일에 저장함."
+         "아이디 입력칸 TextChangedListener" : "텍스트가 바뀐 후에는 정규표현식을 통해서 조건을 검사하고 부족한 조건에 맞추어 TextView로 표현함.",
+         "비밀번호 입력칸 TextChangedListener" : "아이디 입력칸과 동일함",
+         "회원가입 버튼 OnCLickListener" : "정보 입력, 개인정보 이용 동의 여부에 따라서 Toast로 문자열 표시함. 조건이 모두 만족된 경우에는 정보를 로컬파일에 저장함.",
      checkFinishable : 모든 정보들이 입력되었는지, 개인정보 이용에는 동의하는 가를 체크하고 Boolean값을 리턴함.
   
   3. 세번 째 화면 ( calculator.xml + calculatorActivity.kt )
