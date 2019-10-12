@@ -9,7 +9,7 @@
   - com.google.code.gson:gson:2.8.6
   - net.objecthunter:exp4j:0.4.8
   
-<\GNU/Linux>
+<GNU/Linux>
 
 - 운영체제: POP!_OS (Ubuntu based distribution with GNOME desktop manager) [OS Link](https://system76.com/pop)
 
@@ -24,7 +24,7 @@
   - OpenJDK Runtime Environment (build 11.0.4+11-post-Ubuntu-1ubuntu219.04)
   - OpenJDK 64-Bit Server VM (build 11.0.4+11-post-Ubuntu-1ubuntu219.04, mixed mode, sharing)
   
-<\MicrosoftWindows>
+<\Microsoft/Windows>
 
 - 운영체제: Microsft Windows 10 Pro, 10.0.18362 빌드 18362
   
