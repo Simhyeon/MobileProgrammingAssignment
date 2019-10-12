@@ -1,4 +1,4 @@
-# 국민대학교 2019년도 2학기 모바일 프로그래밍 20150803 법학과 육심현 과제
+## 국민대학교 2019년도 2학기 모바일 프로그래밍 20150803 법학과 육심현 과제
 
 ## 구성 환경
 
@@ -34,7 +34,7 @@
 
   - 스크립트( MainActivity.kt )
     - onCreate
-      - loginBtn onClickListener --> 로컬 파일 정보와 대조하여 아이디와 패스워드가 일치시 calculator 액티비티를 호출함.
+      - loginBtn onClickListener : 로컬 파일 정보와 대조하여 아이디와 패스워드가 일치시 calculator 액티비티를 호출함.
       - signUpBtn OnClickLister :  회원정보를 입력하는 액티비티 호출함.
   
     - onPause : 아이디와 비밀번호 TextView에 입력된 Text를 지움.
@@ -88,7 +88,7 @@
   - 메서드
     - updateData : UserDataSets에 UserInformation 인스턴스를 더하고 OutputStream을 통해서 로컬 파일에 저장
   
-    - initialFileCheck : "프로그램이 시작될 때 로컬파일이 이미 있는지를 확인하고 없으면 파일을 생성하고, 있으면 데이터를 저장함
+    - initialFileCheck : 프로그램이 시작될 때 로컬파일이 이미 있는지를 확인하고 없으면 파일을 생성하고, 있으면 데이터를 저장함
   
     - loadData : Inputstream을 통해서 로컬 파일로부터 회원 정보를 불러옴
   
