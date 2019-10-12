@@ -10,6 +10,7 @@
   - net.objecthunter:exp4j:0.4.8
   
 <GNU/Linux>
+
 - 운영체제: POP!_OS (Ubuntu based distribution with GNOME desktop manager) [OS Link](https://system76.com/pop)
 
 - SDK 플랫폼: Android 10.0(Q)
@@ -22,8 +23,9 @@
   - openjdk version "11.0.4" 2019-07-16
   - OpenJDK Runtime Environment (build 11.0.4+11-post-Ubuntu-1ubuntu219.04)
   - OpenJDK 64-Bit Server VM (build 11.0.4+11-post-Ubuntu-1ubuntu219.04, mixed mode, sharing)
-
+  
 <Microsoft Windows>
+
 - 운영체제: Microsft Windows 10 Pro, 10.0.18362 빌드 18362
   
 - SDK 플랫폼: Android 10.0(Q), 9.0(Pie), 
