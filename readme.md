@@ -74,7 +74,7 @@
       - sign_up_complete OnCLickListener : 정보 입력, 개인정보 이용 동의 여부에 따라서 Toast로 문자열 표시함.  
       조건이 모두 만족된 경우에는 정보를 로컬파일에 저장함.
   
-    -checkFinishable : 모든 정보들이 입력되었는지, 개인정보 이용에는 동의하는 가를 체크하고 Boolean값을 리턴함.
+    - checkFinishable : 모든 정보들이 입력되었는지, 개인정보 이용에는 동의하는 가를 체크하고 Boolean값을 리턴함.
   
 - **세 번째 화면** ( calculator.xml + calculatorActivity.kt )
   
