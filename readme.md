@@ -2,22 +2,42 @@
 
 ## 구성 환경
 
-- 운영체제: GNU/Linux x86_64, POP!_OS (Ubuntu based distribution with GNOME desktop manager) [OS Source](https://system76.com/pop)
+- **Kotlin 버전: 1.3.x**  
+  -  메뉴의 Tools -> Kotlin -> Configure Kotlin Plug Updates -> Update Channel을 Early Access Preview 1.3x으로 설정해야 실행됨.
+
+- 외부 라이브러리 (build.gradle에 포함되어 있음)
+  - com.google.code.gson:gson:2.8.6
+  - net.objecthunter:exp4j:0.4.8
+  
+<GNU/Linux>
+- 운영체제: POP!_OS (Ubuntu based distribution with GNOME desktop manager) [OS Link](https://system76.com/pop)
 
 - SDK 플랫폼: Android 10.0(Q)
-  - Andorid SDK bulid tools: 29.0.2
-  - Android Emulator: 29.2.1
-  - Android SDK platform tools: 29.0.4
-  - Android SDK Tools: 26.1.1
+- Andorid SDK bulid tools: 29.0.2
+- Android Emulator: 29.2.1
+- Android SDK platform tools: 29.0.4
+- Android SDK Tools: 26.1.1
 
 - JDK
   - openjdk version "11.0.4" 2019-07-16
   - OpenJDK Runtime Environment (build 11.0.4+11-post-Ubuntu-1ubuntu219.04)
   - OpenJDK 64-Bit Server VM (build 11.0.4+11-post-Ubuntu-1ubuntu219.04, mixed mode, sharing)
 
-- 외부 라이브러리 (build.gradle에 포함되어 있음)
-  - com.google.code.gson:gson:2.8.6
-  - net.objecthunter:exp4j:0.4.8
+<Microsoft Windows>
+- 운영체제: Microsft Windows 10 Pro, 10.0.18362 빌드 18362
+  
+- SDK 플랫폼: Android 10.0(Q), 9.0(Pie), 
+- Andorid SDK bulid tools: 29.0.2
+- Android Emulator: 29.2.1
+- Android SDK platform tools: 29.0.4
+- Android SDK Tools: 26.1.1
+- Intel x86 Emulator Accelerator: 7.5.2
+
+- JDK
+  - java version "13" 2019-09-17
+  - Java(TM) SE Runtime Environment (build 13+33)
+  - Java HotSpot(TM) 64-Bit Server VM (build 13+33, mixed mode, sharing)
+
 
 ## 프로그램 요약
 
@@ -93,3 +113,7 @@
     - loadData : Inputstream을 통해서 로컬 파일로부터 회원 정보를 불러옴
   
     - fileExists : 회원 정보를 저장한 로컬 파일이 존재하는가를 확인하는 메서드.
+    
+- Troubleshooting
+  - failIfKotlinPluginAppliedAndKotlinModelIsMissing 에러  
+  코틀린 버전이 Stable로 되어 있기 때문에 발생하는 문제로 메뉴의 Tools -> Kotlin -> Configure Kotlin Plug Updates -> Update Channel을 Early Access Preview 1.3x으로 설정하면 해결됨. 
