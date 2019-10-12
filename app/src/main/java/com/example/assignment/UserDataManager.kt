@@ -21,7 +21,7 @@ class UserDataManager{
 
     fun initialFileCheck(context: Context) {
         if (!fileExists(context)) {
-            val sets = mutableListOf(UserInformation("","","","", ""))
+            val sets = mutableListOf(UserInformation("tst","tst","tst","tst", "tst"))
             dataSets = UserDataSets(sets)
             context.openFileOutput(context.getString(R.string.defaultUserDataFile), Context.MODE_PRIVATE).use {
                 it.write(gson.toJson(dataSets).toByteArray())
